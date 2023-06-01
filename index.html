@@ -1,0 +1,323 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Astro7</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link sizes="16x16" rel="shortcut icon" href="img/favicon/favicon-16.png"/>
+  <link sizes="24x24" rel="shortcut icon" href="img/favicon/favicon-24.png"/>
+  <link sizes="48x48" rel="shortcut icon" href="img/favicon/favicon-48.png"/>
+  <link sizes="72x72" rel="apple-touch-icon" href="img/favicon/favicon-72.png"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="format-detection" content="date=no">
+  <meta name="format-detection" content="address=no">
+  <meta name="format-detection" content="email=no">
+  <meta name="msapplication-config" content="none">
+  <link rel="stylesheet" href="https://astro7.ru/fileadmin/templates/style.css"/>
+  <link rel="stylesheet" href="css/a_import.css"/>
+  <link rel="stylesheet" href="css/b_style.css"/>
+
+</head>
+<body>
+<div class="js-main-bg | main-bg"> <div id="page"> <!-- mobile content --> <header class="header-main"> <div class="header-main_cnt"> <button class="js-sandwich | header-main_btn header-main_burger"> <svg width="24" height="14"> <use xlink:href="#burger"></use> </svg> </button> <a class="b-logo-two | header-main_logo" href="/"> <svg class="b-logo-two_ico" width="1" height="1"> <use xlink:href="#logo-main"></use> </svg> </a> <form class="js-search | search | header-main_search" method="GET" action="/search/"> <input class="js-search_input | search_input" name="search_text" type="text" placeholder="Напишите вопрос"> <button class="js-search_btn | header-main_btn header-main_search-btn"> <svg width="28" height="28"><use xlink:href="#ico-magnify-s"></use></svg> </button> </form> </div> </header> <nav class="m-menu js-m-menu"> <!-- debug --> <div class="m-menu_inner"> <div><div class="tx-dbusers-pi2"> <div class="login">
+<a class="g-btn g-btn--two g-btn--s | h-w100 | login_btn" href="/registration/"> Зарегистрироваться </a> <a class="g-btn g-btn--seven g-btn--s | h-w100 | login_btn" href="/login/"> Войти </a> </div> </div> </div> <ul> <li class="m-menu_item"> <a class="js-m-menu-section | m-menu_section is-active" href="#">Выберите эксперта</a> <ul class="sub-menu"><!-- <li class="sub-menu_item"> <a class="sub-menu_link" href="/experts/">Выберите эксперта</a> </li>--> <li class="sub-menu_item"> <a class="sub-menu_link" href="/experts/luchshie/">Лучшие</a> </li> <li class="sub-menu_item"> <a class="sub-menu_link" href="/experts/astrologiya/">Астрологи</a> </li> <li class="sub-menu_item"> <a class="sub-menu_link" href="/experts/extrasensy/">Экстрасенсы</a> </li> <li class="sub-menu_item"> <a class="sub-menu_link" href="/experts/gadalki/">Гадалки</a> </li><!-- <li class="sub-menu_item"> <a class="sub-menu_link" href="/experts/orakul/">Оракулы</a> </li> <li class="sub-menu_item"> <a class="sub-menu_link" href="/experts/numerologiya/">Нумерологи</a> </li>--> <li class="sub-menu_item"> <a class="sub-menu_link" href="/experts/more-experts/">Еще эксперты</a> </li><!-- <li class="sub-menu_item"> <a class="sub-menu_link" href="/experts/vse-spetsializatii/">Все эксперты</a> </li>--> </ul> </li> <li class="m-menu_item"> <a class="js-m-menu-section | m-menu_section" href="#">Закажите услугу</a> <ul class="sub-menu"><!-- <li class="sub-menu_item"> <a class="sub-menu_link" href="/services/">Закажите услугу</a> </li>--> <li class="sub-menu_item"> <a class="sub-menu_link" href="/services/actions/">Акции</a> </li> <!--<li class="sub-menu_item">--> <!--<a class="sub-menu_link" href="/services/horoscope-promo/">Любовные прогнозы</a>--> <!--</li>--> <li class="sub-menu_item"> <a class="sub-menu_link" href="/services/horoscope-2019/">Прогнозы на&nbsp;2019&nbsp;год</a> </li> <li class="sub-menu_item"> <a class="sub-menu_link" href="/services/human-design/">Дизайн человека</a> </li> <li class="sub-menu_item"> <a class="sub-menu_link" href="/services/horoscop/">Гороскопы</a> </li> <li class="sub-menu_item"> <a class="sub-menu_link" href="/services/forecast/">Предсказания</a> </li> <li class="sub-menu_item"> <a class="sub-menu_link" href="/services/taro-prognozy/">Расклады Таро</a> </li> <li class="sub-menu_item"> <a class="sub-menu_link" href="/services/consultation/">Консультации</a> </li> </ul> </li> <li class="m-menu_item"> <a class="js-m-menu-section | m-menu_section" href="#">Задайте вопрос</a> <ul class="sub-menu"><!-- <li class="sub-menu_item"> <a class="sub-menu_link" href="/ask/">Задайте вопрос</a> </li>--> <li class="sub-menu_item"> <a class="sub-menu_link" href="/ask/lyubov-i-otnosheniya/">Любовь и&nbsp;отношения</a> </li> <li class="sub-menu_item"> <a class="sub-menu_link" href="/ask/semja-i-deti/">Семья и&nbsp;дети</a> </li> <li class="sub-menu_item"> <a class="sub-menu_link" href="/ask/sudba-i-budushchee/">Судьба и&nbsp;будущее</a> </li> <li class="sub-menu_item"> <a class="sub-menu_link" href="/ask/rabota-i-karera/">Работа и&nbsp;карьера</a> </li> <li class="sub-menu_item"> <a class="sub-menu_link" href="/ask/dengi-i-biznes/">Деньги и&nbsp;бизнес</a> </li><!-- <li class="sub-menu_item"> <a class="sub-menu_link" href="/ask/vse-voprosi/">Все вопросы</a> </li>--> </ul> </li> </ul> <div class="drop-down"><div class="tx-dbusers-pi2"> <!-- noindex--> <span class="js-drop-down-link | drop-down_link"> <img class="flag flag--s | region_flag" src="https://astro7.ru/fileadmin/templates/images/flag/ru.svg" width="200" height="150" alt=""> Россия
+</span> <ul class="js-region | region"> <li class="js-region-item | region_item is-invisible" id="ru"> <img class="flag flag--s | region_flag" src="https://astro7.ru/fileadmin/templates/images/flag/ru.svg" width="200" height="150" alt=""> Россия </li> <li class="js-region-item | region_item " id="ua"> <img class="flag flag--s | region_flag" src="https://astro7.ru/fileadmin/templates/images/flag/ua.svg" width="200" height="150" alt=""> Украина </li> <li class="js-region-item | region_item " id="de"> <img class="flag flag--s | region_flag" src="https://astro7.ru/fileadmin/templates/images/flag/de.svg" width="200" height="150" alt=""> Германия </li> <li class="js-region-item | region_item " id="il"> <img class="flag flag--s | region_flag" src="https://astro7.ru/fileadmin/templates/images/flag/il.svg" width="200" height="150" alt=""> Израиль </li> <li class="js-region-item | region_item " id="lv"> <img class="flag flag--s | region_flag" src="https://astro7.ru/fileadmin/templates/images/flag/lv.svg" width="200" height="150" alt=""> Латвия </li> <li class="js-region-item | region_item " id="us"> <img class="flag flag--s | region_flag" src="https://astro7.ru/fileadmin/templates/images/flag/us.svg" width="200" height="150" alt=""> США </li> <li class="js-region-item | region_item " id="gb"> <img class="flag flag--s | region_flag" src="https://astro7.ru/fileadmin/templates/images/flag/gb.svg" width="200" height="150" alt=""> Великобрит. </li> <li class="js-region-item | region_item " id="fr"> <img class="flag flag--s | region_flag" src="https://astro7.ru/fileadmin/templates/images/flag/fr.svg" width="200" height="150" alt=""> Франция </li> <li class="js-region-item | region_item " id="pl"> <img class="flag flag--s | region_flag" src="https://astro7.ru/fileadmin/templates/images/flag/pl.svg" width="200" height="150" alt=""> Польша </li> <li class="js-region-item | region_item " id="ca"> <img class="flag flag--s | region_flag" src="https://astro7.ru/fileadmin/templates/images/flag/ca.svg" width="200" height="150" alt=""> Канада </li> <li class="js-region-item | region_item " id="at"> <img class="flag flag--s | region_flag" src="https://astro7.ru/fileadmin/templates/images/flag/at.svg" width="200" height="150" alt=""> Австрия </li> <li class="js-region-item | region_item " id="ch"> <img class="flag flag--s | region_flag" src="https://astro7.ru/fileadmin/templates/images/flag/ch.svg" width="200" height="150" alt=""> Швейцария </li> <li class="js-region-item | region_item " id="zz"> <img class="flag flag--s | region_flag" src="https://astro7.ru/fileadmin/templates/images/flag/zz.svg" width="200" height="150" alt=""> Весь мир </li> </ul> <div class="b-country-call"> <p class="b-country-call_label"> Центр поддержки клиентов </p> <div class="js-country-call-cnt"><a class="b-country-call_link" href="tel:+78001000781" target="_blank">+7 800 100-07-81</a></div> </div> <!--/noindex--> </div> </div> </div> </nav> <!-- mobile content - end --> <!-- header --> <div class="head"> <div class="logo"> <a href="/" class="b-logo"> <svg class="b-logo_ico" width="1" height="1"> <use xlink:href="#logo-main"></use> </svg> </a> </div>
+<div class="head_hotline"> <meta itemprop="name" content="Astro7"> <meta itemprop="address" content="astro7.ru"> <p itemprop="description" class="header-hotline"> Астрологи, экстрасенсы и&nbsp;ясновидящие онлайн. Первая консультация бесплатно! </p> </div> <div class="auth"><div class="tx-dbusers-pi2"> <div class="auth_row auth_row--one"> <span class="auth_item"></span> <span class="auth_item auth_region"> <!--noindex--> <div class="js-location"> <button class="js-location-item | link-two | location_item location_item--current"> <img class="flag flag--s | location_item-flag" src="https://astro7.ru/fileadmin/templates/images/flag/ru.svg" width="200" height="150" alt=""> Россия </button> <div class="js-location-list | location auth_location | g-hidden"> <button class="js-location-item | link-two | location_item" id="ru"> <img class="flag flag--s | location_item-flag" src="https://astro7.ru/fileadmin/templates/images/flag/ru.svg" width="200" height="150" alt=""> Россия </button> <button class="js-location-item | link-two | location_item" id="ua"> <img class="flag flag--s | location_item-flag" src="https://astro7.ru/fileadmin/templates/images/flag/ua.svg" width="200" height="150" alt=""> Украина </button> <button class="js-location-item | link-two | location_item" id="de"> <img class="flag flag--s | location_item-flag" src="https://astro7.ru/fileadmin/templates/images/flag/de.svg" width="200" height="150" alt=""> Германия </button> <button class="js-location-item | link-two | location_item" id="il"> <img class="flag flag--s | location_item-flag" src="https://astro7.ru/fileadmin/templates/images/flag/il.svg" width="200" height="150" alt=""> Израиль </button> <button class="js-location-item | link-two | location_item" id="lv"> <img class="flag flag--s | location_item-flag" src="https://astro7.ru/fileadmin/templates/images/flag/lv.svg" width="200" height="150" alt=""> Латвия </button> <button class="js-location-item | link-two | location_item" id="us"> <img class="flag flag--s | location_item-flag" src="https://astro7.ru/fileadmin/templates/images/flag/us.svg" width="200" height="150" alt=""> США </button> <button class="js-location-item | link-two | location_item" id="gb"> <img class="flag flag--s | location_item-flag" src="https://astro7.ru/fileadmin/templates/images/flag/gb.svg" width="200" height="150" alt=""> Великобрит. </button> <button class="js-location-item | link-two | location_item" id="fr"> <img class="flag flag--s | location_item-flag" src="https://astro7.ru/fileadmin/templates/images/flag/fr.svg" width="200" height="150" alt=""> Франция </button> <button class="js-location-item | link-two | location_item" id="pl"> <img class="flag flag--s | location_item-flag" src="https://astro7.ru/fileadmin/templates/images/flag/pl.svg" width="200" height="150" alt=""> Польша </button> <button class="js-location-item | link-two | location_item" id="ca"> <img class="flag flag--s | location_item-flag" src="https://astro7.ru/fileadmin/templates/images/flag/ca.svg" width="200" height="150" alt=""> Канада </button> <button class="js-location-item | link-two | location_item" id="at"> <img class="flag flag--s | location_item-flag" src="https://astro7.ru/fileadmin/templates/images/flag/at.svg" width="200" height="150" alt=""> Австрия </button> <button class="js-location-item | link-two | location_item" id="ch"> <img class="flag flag--s | location_item-flag" src="https://astro7.ru/fileadmin/templates/images/flag/ch.svg" width="200" height="150" alt=""> Швейцария </button> <button class="js-location-item | link-two | location_item" id="zz"> <img class="flag flag--s | location_item-flag" src="https://astro7.ru/fileadmin/templates/images/flag/zz.svg" width="200" height="150" alt=""> Весь мир </button> </div> </div> <!--/noindex--> </span> </div> <div class="auth_row"> <a href="/login/" class="js-ga | link-two | auth_item auth_link" data-event="gtm.generalEvent" data-event-category="user" data-event-action="sign_in" data-event-label="first_step" data-event-value=""> Войти </a> <span class="auth_item">или</span> <a class="link-two | auth_item auth_link" href="/registration/"> Зарегистрироваться </a> </div> </div> </div> </div> <!-- head --> <!-- menu -->  <!-- menu end -->
+<!-- <div class="b-layout b-layout--two">
+  <div class="test b-layout_master">
+    aside
+  </div>
+  <div class="test">
+    main
+  </div>
+</div> -->
+
+<div class="contet">
+  <div class="js-page | l-wrap | p-page p-page--one">
+    <div class="p-page_cnt">
+      <main class="l-cnt">
+        <section class="js-cnt g-hidden is-visible">
+          <div class="p-page_intro">
+            <h1 class="p-page_title">
+              Заголовок_текст
+            </h1>
+            <div class="b-layout b-layout--two">
+              <div class="b-layout_master">
+                <div class="b-expert b-expert--s b-layout_master p-page_expert">
+                  <img class="b-expert_avatar" src="https://148924.selcdn.ru/astro7_public/adviser/12074/avatar-three-xxs.jpg" width="100" height="100" alt="">
+                  <div class="b-expert_info">
+                    <a class="g-cl b-expert_link" href="22222222222222222"></a>
+                    <div class="b-expert_name">
+                      Имя_эксперта
+                    </div>
+                    <div class="b-expert_profile">
+                      Эксперт Astro7
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <p class="p-page_text">
+                  Текст_текст_текст_текст
+                </p>
+                <p class="p-page_text">
+                  Текст_текст_текст_текст
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="b-outro p-page_outro p-page_outro--one">
+            <p class="b-outro_text">
+              Ста_ста_ста_ста_ста
+            </p>
+          </div>
+          <div class="js-test | test test--two | p-page_test">
+            <div class="js-cover js-onload | cover cover--one | test_cover is-visible">
+              <ul class="g-loader g-loader--size-s">
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+            </div>
+            <ul class="test_counter">
+              <li class="js-test-current">1</li>
+              <li class="test_counter-divider">из</li>
+              <li class="js-test-total">0</li>
+            </ul>
+            <div>
+              <!-- question -->
+              <div class="js-test-question | test_question is-visible">
+                <p class="test_text">
+                  Текст_вопроса
+                </p>
+                <label class="js-test-answer | g-radio | test_answer test_answer--one">
+                  <input class="js-test-radio | g-radio_input" type="radio" name="question-1" value="3" />
+                  <span class="g-radio_skin test_question-skin"></span>
+                  <span class="g-radio_text">
+                    Текст_ответа
+                  </span>
+                </label>
+                <label class="js-test-answer | g-radio | test_answer test_answer--one">
+                  <input class="js-test-radio | g-radio_input" type="radio" name="question-1" value="2" />
+                  <span class="g-radio_skin test_question-skin"></span>
+                  <span class="g-radio_text">
+                    Текст_ответа
+                  </span>
+                </label>
+                <label class="js-test-answer | g-radio | test_answer test_answer--one">
+                  <input class="js-test-radio | g-radio_input" type="radio" name="question-1" value="1" />
+                  <span class="g-radio_skin test_question-skin"></span>
+                  <span class="g-radio_text">
+                    Текст_ответа
+                  </span>
+                </label>
+              </div>
+              <!-- question -->
+              <div class="js-test-question | test_question">
+                <p class="test_text">
+                  Текст_вопроса
+                </p>
+                <ul class="test_cage">
+                  <li class="test_cage-item">
+                    <label class="js-test-answer | g-radio | test_answer test_answer--two">
+                      <input class="js-test-radio | g-radio_input" type="radio" name="question-2"
+                        value="1" />
+                      <span class="g-radio_skin test_question-skin"></span>
+                      <img class="test_pic"
+                        src="https://user98023.clients-cdnnow.ru/images/newsletter/mail/2019/permanent/site/association/5.jpg"
+                        width="512" height="272" alt="" />
+                    </label>
+                  </li>
+                  <li class="test_cage-item">
+                    <label class="js-test-answer | g-radio | test_answer test_answer--two">
+                      <input class="js-test-radio | g-radio_input" type="radio" name="question-2"
+                        value="3" />
+                      <span class="g-radio_skin test_question-skin"></span>
+                      <img class="test_pic"
+                        src="https://user98023.clients-cdnnow.ru/images/newsletter/mail/2019/permanent/site/association/6.jpg"
+                        width="512" height="272" alt="" />
+                    </label>
+                  </li>
+                  <li class="test_cage-item">
+                    <label class="js-test-answer | g-radio | test_answer test_answer--two">
+                      <input class="js-test-radio | g-radio_input" type="radio" name="question-2"
+                        value="2" />
+                      <span class="g-radio_skin test_question-skin"></span>
+                      <img class="test_pic"
+                        src="https://user98023.clients-cdnnow.ru/images/newsletter/mail/2019/permanent/site/association/7.jpg"
+                        width="512" height="272" alt="" />
+                    </label>
+                  </li>
+                </ul>
+              </div>
+              <!-- question -->
+              <div class="js-test-question | test_question">
+                <p class="test_text">
+                  Текст_вопроса
+                </p>
+                <label class="js-test-answer | g-radio | test_answer test_answer--one">
+                  <input class="js-test-radio | g-radio_input" type="radio" name="question-3" value="1" />
+                  <span class="g-radio_skin test_question-skin"></span>
+                  <span class="g-radio_text">
+                    Текст_ответа
+                  </span>
+                </label>
+                <label class="js-test-answer | g-radio | test_answer test_answer--one">
+                  <input class="js-test-radio | g-radio_input" type="radio" name="question-3" value="2" />
+                  <span class="g-radio_skin test_question-skin"></span>
+                  <span class="g-radio_text">
+                    Текст_ответа
+                  </span>
+                </label>
+                <label class="js-test-answer | g-radio | test_answer test_answer--one">
+                  <input class="js-test-radio | g-radio_input" type="radio" name="question-3" value="3" />
+                  <span class="g-radio_skin test_question-skin"></span>
+                  <span class="g-radio_text">
+                    Текст_ответа
+                  </span>
+                </label>
+              </div>
+            </div>
+            <div class="test_wrap">
+              <button class="js-test-btn | g-btn g-btn--two g-btn--s | test_btn">
+                Дальше
+                <svg class="b-outro_ico" width="56" height="56" viewbox="0 0 56 56">
+                  <path
+                    d="M34.016 16.35c1.187 3.175 2.31 4.95 4.67 7.389 1.363 1.408 2.55 2.424 3.88 3.26H9v2h33.567c-1.332.837-2.518 1.854-3.88 3.262-2.362 2.438-3.484 4.213-4.671 7.388l1.873.7c1.09-2.916 2.064-4.456 4.234-6.697 2.358-2.435 4.041-3.534 7.225-4.715v-1.875c-3.184-1.18-4.867-2.28-7.225-4.715-2.17-2.24-3.143-3.78-4.234-6.698l-1.873.7Z" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </section>
+        <section class="js-cnt g-hidden">
+          <ul class="result p-page_result">
+            <li class="js-result-item result_item g-hidden">
+              <div class="b-layout b-layout--two">
+                <div class="b-layout_master">
+                  <img class="result_decore" src="https://user98023.clients-cdnnow.ru/images/newsletter/mail/2022/temporary/chakra-astrology/1.jpg?v3" width="500" height="500" alt="">
+                </div>
+                <div class="result_meta">
+                  <h2 class="h1 result_title">
+                    Заголовок_текст
+                  </h2>
+                  <p class="result_text">
+                    Результат_1
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="js-result-item result_item g-hidden">
+              <div class="b-layout b-layout--two">
+                <div class="b-layout_master">
+                  <img class="result_decore" src="https://user98023.clients-cdnnow.ru/images/newsletter/mail/2022/temporary/chakra-astrology/2.jpg?v3" width="500" height="500" alt="">
+                </div>
+                <div class="result_meta">
+                  <h2 class="h1 result_title">
+                    Заголовок_текст
+                  </h2>
+                  <p class="result_text">
+                    Результат_2
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="js-result-item result_item g-hidden">
+              <div class="b-layout b-layout--two">
+                <div class="b-layout_master">
+                  <img class="result_decore" src="https://user98023.clients-cdnnow.ru/images/newsletter/mail/2022/temporary/chakra-astrology/3.jpg?v3" width="500" height="500" alt="">
+                </div>
+                <p>
+                  <div class="result_meta">
+                    <h2 class="h1 result_title">
+                      Заголовок_текст
+                    </h2>
+                    <p class="result_text">
+                      Результат_3
+                    </p>
+                  </div>
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <div class="js-finish p-page_listing g-hidden">
+    <div class="b-outro p-page_outro p-page_outro--two">
+      <p class="b-outro_text">
+        Выберите эксперта, который ответит на&nbsp;ваш вопрос
+        <br><svg width="56" height="56"><use xlink:href="/fileadmin/templates/images/sprite/sprite-main.svg#ico-arr-one"></use></svg>
+      </p>
+    </div>
+    <div>
+      <div class="js-list-root root root--one">
+        <section class="js-fish main-expert skeleton--one is-skeleton"></section>
+        <section class="js-fish main-expert skeleton--one is-skeleton"></section>
+        <section class="js-fish main-expert skeleton--one is-skeleton"></section>
+      </div>
+      <div class="btn-wrap">
+        <button class="js-list-btn g-btn g-btn--seven g-btn--m h-w100">
+          <span>Показать&nbsp;еще</span>
+          <ul class="g-loader g-loader--size-s">
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </button>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</div><!-- #page -->
+<div id="footer"> <div class="footer | content"> <ul class="footer_partners | b-partners" style="display: none;"> <li class="text-one | b-partners_label"> Наши партнеры: </li> <li class="b-partners_item b-partners_item--sun"></li> <li class="b-partners_item b-partners_item--cosmo"></li> <li class="b-partners_item b-partners_item--ftime"></li> <li class="b-partners_item b-partners_item--rambler"></li> <li class="b-partners_item b-partners_item--lj"></li> <li class="b-partners_item b-partners_item--ranm"></li> </ul> <a class="link-one | footer_replenish" href="/infopay/" rel="nofollow"> Как пополнить счет </a> <!--noindex--> <ul class="text-one | footer_columns | footer-columns"> <li class="footer-columns_item"> <a href="/info/garantiya-kachestva/" class="footer_subtitle"> 100% Гарантия качества </a> <ul class="footer-columns_list"> <li>Гарантируем качество с&nbsp;2009&nbsp;года</li> <li>У&nbsp;нас более 1&nbsp;млн. клиентов</li> <li>Вы&nbsp;можете <a href="/services/besplatnaja-konsultacija/" class="link-one">проверить бесплатно</a></li> <li>Недовольны? <a href="/info/garantiya-kachestva/" class="link-one">Вернём деньги</a></li> </ul> </li> <li class="footer-columns_item"> <b class="footer_subtitle">Наши услуги</b> <ul class="footer-columns_list"> <li><a href="/services/besplatnaja-konsultacija/" class="link-one">Бесплатная консультация</a></li> <li><a href="/services/zvonok-po-predoplate/" class="link-one">Голосовые консультации</a></li> <li><a href="/services/" class="link-one">Письменные консультации</a></li> <li></li> <li><a href="/experts/astrochat/" class="link-one">Астрочат</a></li> </ul> </li> <li class="footer-columns_item"> <b class="footer_subtitle">Клиентам</b> <ul class="footer-columns_list"> <li><a href="/faq/" class="link-one">Часто задаваемые вопросы</a></li>
+<li><a href="/info/five-reasons-to-choose-astro7/" class="link-one">Почему мы?</a></li> <li><a href="/services/why-people-page-choose/" class="link-one">За что нас выбирают</a></li> <li><a href="/info/garantiya-kachestva/" class="link-one">Гарантия качества</a></li> <li><a href="/services/we-never-provide/" class="link-one">Запрещённые темы</a></li> <li><a href="/reviews/" class="link-one">Отзывы</a></li> </ul> </li> <li class="footer-columns_item"> <b class="footer_subtitle">Сервис Astro7</b> <ul class="footer-columns_list"> <li><a href="/info/public-agreement/" class="link-one">Условия использования сервиса</a></li> <li><a href="/info/service-rules-and-legal-notice/" class="link-one">Правила сервиса и&nbsp;юридическая информация</a></li> <li><a href="/expert-registration/" class="link-one">Стать экспертом</a></li> <!-- noindex --> <li><a href="/notypo/index.php?r=/r/index&amp;url=http%3A%2F%2Fteleastro.ru%2F" class="link-one" target="_blank">Стать партнёром</a></li> <!-- /noindex --> <li><a href="/astrocontent-for-free/" class="link-one">Получать контент</a></li> <li><a href="/contacts/" class="link-one">Контакты</a></li> </ul> </li> </ul> <!--/noindex--> <div class="js-footer-ajax-content"><!-- noindex--> <p class="text-one | footer_text"> *<span class="js-site-address">Astro7.ru</span> может содержать информацию только для совершеннолетних 18+ и&nbsp;использоваться исключительно в&nbsp;развлекательных целях. <a class="link-one" href="/"><span class="js-site-address">Astro7.ru</span></a> не&nbsp;несёт ответственности за&nbsp;обещания и&nbsp;утверждения, содержащиеся в&nbsp;описании услуг экспертов и&nbsp;не&nbsp;может гарантировать, что использование услуг приведет к&nbsp;целям и&nbsp;результатам, описанным на&nbsp;сайте, в&nbsp;том числе и&nbsp;в&nbsp;отзывах клиентов. Используя сервис Astro7, вы&nbsp;соглашаетесь с&nbsp;тем, что делаете это добровольно, принимая&nbsp;<a class="link-one" href="/info/public-agreement/" rel="nofollow">Условия использования сервиса</a> и&nbsp;<a class="link-one" href="/info/service-rules-and-legal-notice/" rel="nofollow">Правила&nbsp;сервиса</a>. </p> <p class="text-one | footer_text"> Эксперты не являются сотрудниками Сервиса. </p> <p class="text-one | footer_text"> ©&nbsp;2009–<span class="js-current-year">2021</span> <span class="js-site-address">Astro7.ru</span>. Все права защищены. Любое использование материалов сайта допускается только с&nbsp;разрешения Сервиса, при&nbsp;условии обязательного размещения активной ссылки на&nbsp;<span class="js-site-address">Astro7.ru</span> (см. <a class="link-one" href="/info/copyrights/" rel="nofollow">Соблюдение авторских прав</a>).
+</p> <!--/noindex--></div> <p class="text-one | footer_text">Астрология, экстрасенсы и гадания Таро.</p> </div> </div> </div><!-- main-bg -->
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500" viewBox="0 0 500 500" style="display: none;">
+<defs><style>path { fill-rule: evenodd }</style></defs>
+<symbol id="logo-main" viewBox="0 0 112 31">
+<path fill="#c22151" d="M22.5511 28.7526L22.5778 28.7437C22.6468 28.7098 22.7017 28.6527 22.7329 28.5826C22.7641 28.5124 22.7696 28.4336 22.7484 28.3598C22.7273 28.286 22.6808 28.222 22.6171 28.1789C22.5535 28.1357 22.4766 28.1162 22.4 28.1237C22.3727 28.1264 22.3459 28.1324 22.32 28.1414C15.9556 30.7987 7.92889 28.0883 5.34222 21.2944C4.77904 19.824 4.5127 18.2572 4.55846 16.684C4.60422 15.1108 4.96119 13.5621 5.60889 12.1267C5.78409 11.7386 5.97993 11.3601 6.19556 10.9929V11.0106C6.32 10.798 6.45037 10.5913 6.58667 10.3905C7.46295 9.07761 8.59098 7.95019 9.90593 7.07309C11.2209 6.19599 12.6968 5.58649 14.2489 5.27963C15.8011 4.96972 17.3995 4.96824 18.9523 5.27528C20.5052 5.58233 21.9819 6.19185 23.2978 7.06889C24.6431 7.95059 25.7876 9.10394 26.6574 10.4543C27.5271 11.8047 28.1026 13.322 28.3467 14.908C28.5465 15.9679 28.5339 17.0567 28.3097 18.1117C28.0854 19.1667 27.6539 20.1671 27.04 21.0552C25.5644 22.9065 23.0844 23.5885 22.4089 20.5415L22.0267 18.8231L22.0533 18.8054V18.7877L22.1422 18.6991L25.9378 14.9346L26.4267 14.4562C26.5319 14.3362 26.5888 14.1816 26.5867 14.0222C26.587 13.8704 26.5338 13.7234 26.4363 13.6068C26.3388 13.4902 26.2032 13.4115 26.0533 13.3844L25.4044 13.287L19.9822 12.4278L17.4756 7.54721L17.1733 6.9626C17.1174 6.86099 17.0351 6.77624 16.935 6.7172C16.8349 6.65816 16.7207 6.62702 16.6044 6.62702C16.4881 6.62702 16.374 6.65816 16.2739 6.7172C16.1738 6.77624 16.0915 6.86099 16.0356 6.9626L15.7333 7.54721L13.2356 12.4278L7.80444 13.287L7.15556 13.3844C7.04052 13.4052 6.93325 13.4566 6.8451 13.5331C6.75694 13.6097 6.69118 13.7085 6.65475 13.8192C6.61833 13.9299 6.6126 14.0484 6.63816 14.1621C6.66373 14.2758 6.71965 14.3805 6.8 14.4651L7.27111 14.9346L11.1644 18.8054L10.2933 24.2086L10.1956 24.8552C10.1934 24.8847 10.1934 24.9143 10.1956 24.9438C10.1956 25.1153 10.2639 25.2797 10.3856 25.401C10.5073 25.5223 10.6723 25.5904 10.8444 25.5904C10.9361 25.5916 11.027 25.5735 11.1111 25.5372L11.7067 25.2361L16.9689 22.5699L18.5333 23.3671C18.5788 23.3863 18.6292 23.3904 18.6772 23.3789C18.7253 23.3675 18.7683 23.341 18.8001 23.3033C18.8319 23.2657 18.8508 23.2189 18.854 23.1698C18.8571 23.1207 18.8445 23.0719 18.8178 23.0305L17.1556 20.7452L16.9067 20.4086C16.8156 20.2848 16.6965 20.1841 16.559 20.1149C16.4216 20.0456 16.2696 20.0097 16.1156 20.01C15.9714 20.0082 15.8287 20.0385 15.6978 20.0986L13.5111 21.2147L13.9911 18.2031V18.1765C13.993 18.147 13.993 18.1174 13.9911 18.0879C13.9936 17.8965 13.9201 17.7119 13.7867 17.5742L11.6178 15.4129L14.64 14.9346C14.755 14.9174 14.8643 14.8731 14.9586 14.8053C15.0529 14.7375 15.1296 14.6482 15.1822 14.5448L16.5689 11.8343L17.9556 14.5448C18.0079 14.6466 18.0834 14.7349 18.1759 14.8026C18.2685 14.8702 18.3757 14.9154 18.4889 14.9346L21.5289 15.4129L19.36 17.5653V17.5742C19.2247 17.7077 19.148 17.8893 19.1467 18.079C19.1462 18.1206 19.1491 18.162 19.1556 18.2031L20.7556 21.755C21.1243 22.7116 21.8004 23.5196 22.6783 24.0532C23.5562 24.5867 24.5866 24.8158 25.6089 24.7046C29.2711 24.3503 31.9022 20.2758 31.9733 15.7849V15.342H32C31.8702 11.2097 30.1239 7.29184 27.1343 4.42525C24.1447 1.55867 20.1487 -0.0293453 16 0.000426638C11.7978 -0.0302978 7.75467 1.59955 4.75584 4.53307C1.75702 7.46659 0.0469186 11.4647 0 15.652C0.0116013 18.3185 0.708953 20.9374 2.02547 23.2588C3.34198 25.5802 5.2337 27.5266 7.52 28.912V28.9032C9.78098 30.299 12.3934 31.0259 15.053 30.9993C17.7126 30.9726 20.3099 30.1935 22.5422 28.7526H22.5511Z"/>
+<path fill="#262626" d="M42.6088 5.99067C42.6364 5.94779 42.6839 5.92188 42.7349 5.92188H46.5309C46.5903 5.92188 46.6441 5.9569 46.6681 6.0112L55.0401 24.9392C55.0606 24.9856 55.0563 25.0392 55.0286 25.0817C55.001 25.1242 54.9537 25.1499 54.9029 25.1499H51.1069C51.0476 25.1499 50.9938 25.1149 50.9698 25.0606L48.6953 19.9239H40.9864L39.3612 23.5743L39.8851 24.9464C39.9027 24.9925 39.8965 25.0443 39.8685 25.0849C39.8405 25.1256 39.7943 25.1499 39.7449 25.1499H35.6109C35.5602 25.1499 35.5128 25.1242 35.4852 25.0816C35.4575 25.0391 35.4532 24.9854 35.4739 24.939L43.2205 7.50258L42.5984 6.13395C42.5773 6.08752 42.5812 6.03355 42.6088 5.99067ZM98.72 6.01848C98.742 5.96031 98.798 5.92188 98.861 5.92188H111.419C111.501 5.92188 111.569 5.98903 111.569 6.07187V7.52787C111.569 7.54742 111.565 7.56678 111.557 7.58486L104.381 25.0569C104.358 25.1131 104.303 25.1499 104.243 25.1499H100.758C100.708 25.1499 100.661 25.1243 100.633 25.0818C100.605 25.0393 100.601 24.9857 100.621 24.9393L107.729 8.82485L97.822 8.95186C97.773 8.9525 97.726 8.9285 97.698 8.88778C97.669 8.84706 97.663 8.7949 97.68 8.74848L98.72 6.01848ZM71.0606 7.50721C71.1022 7.53505 71.1272 7.58181 71.1272 7.63188V11.9539H74.2532C74.336 11.9539 74.4032 12.021 74.4032 12.1039V14.4959C74.4032 14.5787 74.336 14.6459 74.2532 14.6459H71.1272V20.3719C71.1272 21.0085 71.3457 21.5418 71.7842 21.9808C72.2128 22.3928 72.895 22.6139 73.8632 22.6139H74.3312C74.3805 22.6139 74.4266 22.6381 74.4546 22.6786C74.4826 22.7191 74.4889 22.7708 74.4715 22.8169L73.5875 25.1569C73.5655 25.2153 73.5096 25.2539 73.4472 25.2539H72.4852C70.7053 25.2539 69.4149 24.8977 68.6611 24.1439C67.9137 23.3965 67.5512 22.3215 67.5512 20.9439V14.6459H65.0232C64.9741 14.6459 64.9282 14.6219 64.9001 14.5816C64.8721 14.5413 64.8655 14.4899 64.8825 14.4439L65.7665 12.0519C65.7883 11.993 65.8444 11.9539 65.9072 11.9539H67.5512V8.98386C67.5512 8.92312 67.5878 8.86838 67.644 8.84521L70.92 7.49322C70.9663 7.47412 71.019 7.47937 71.0606 7.50721ZM44.8162 11.1243L42.21 17.1019H47.4702L44.8162 11.1243ZM79.7321 11.6723C79.7695 11.7007 79.7915 11.7449 79.7915 11.7919V13.1321C79.926 13.0253 80.0727 12.9189 80.2315 12.8129C80.4917 12.6221 80.7267 12.4568 80.9363 12.3171L80.9481 12.3092L81.2838 12.1292C81.5903 11.9492 81.9075 11.8222 82.2349 11.7494L82.2366 11.7491C82.5769 11.6775 82.9339 11.6419 83.3075 11.6419C83.8653 11.6419 84.3379 11.7589 84.7152 12.0041C84.7699 12.0397 84.7954 12.1065 84.7782 12.1695L84.0242 14.9255C84.0135 14.9644 83.9876 14.9975 83.9522 15.0171C83.9169 15.0367 83.8751 15.0412 83.8364 15.0295L82.789 14.7153C82.5564 14.6323 82.3154 14.5739 82.0657 14.5406L82.056 14.5393C81.8048 14.489 81.5634 14.4639 81.3315 14.4639C81.0838 14.4639 80.8151 14.5247 80.5239 14.6521C80.3973 14.7482 80.2696 14.8602 80.1411 14.9884C80.0372 15.1077 79.9466 15.2414 79.8695 15.3899V24.9999C79.8695 25.0827 79.8023 25.1499 79.7195 25.1499H76.4175C76.3346 25.1499 76.2675 25.0827 76.2675 24.9999V14.2755L75.5331 12.984C75.5103 12.9439 75.5072 12.8955 75.5247 12.8529C75.5423 12.8102 75.5785 12.778 75.6229 12.7655L79.6009 11.6475C79.6461 11.6348 79.6946 11.644 79.7321 11.6723ZM59.5369 11.9132C59.9544 11.7321 60.3986 11.6419 60.8681 11.6419C61.5253 11.6419 62.1569 11.7484 62.7621 11.9618C63.3644 12.1568 63.923 12.4317 64.4373 12.7864C64.4944 12.8258 64.5171 12.8993 64.4919 12.9641L63.5039 15.5121C63.487 15.5559 63.4505 15.5892 63.4054 15.6021C63.3602 15.615 63.3116 15.606 63.2741 15.5779C62.8687 15.2738 62.3672 14.9843 61.7677 14.7103L61.7645 14.7088C61.1747 14.4223 60.6077 14.2819 60.0621 14.2819C59.8968 14.2819 59.7198 14.3189 59.5298 14.397C59.4077 14.4668 59.2995 14.5796 59.2084 14.7449C59.1318 14.915 59.0946 15.0818 59.0941 15.2462C59.1108 15.5688 59.1908 15.8236 59.3253 16.0194C59.4871 16.229 59.6808 16.4066 59.9073 16.5525C60.1566 16.7018 60.4319 16.827 60.7335 16.9276C61.044 17.031 61.3718 17.1346 61.7172 17.2382C62.1214 17.3612 62.509 17.5108 62.8788 17.6866C63.2732 17.8485 63.6166 18.065 63.907 18.3369C64.2178 18.6115 64.4635 18.9492 64.6446 19.3478C64.8292 19.7539 64.9181 20.2444 64.9181 20.8139C64.9181 21.6728 64.6939 22.3929 64.2349 22.962L64.2333 22.9639C63.7877 23.4987 63.2529 23.9353 62.6301 24.2735L61.5386 24.8712C60.857 25.2478 60.1124 25.4359 59.3081 25.4359C57.9082 25.4359 56.6304 25.0366 55.4787 24.2392C55.4217 24.1997 55.3992 24.1263 55.4243 24.0616L56.4643 21.3836C56.4809 21.3406 56.5164 21.3077 56.5605 21.2943C56.6046 21.281 56.6524 21.2886 56.6901 21.315C57.2026 21.6737 57.7936 22.0165 58.4638 22.343C59.1222 22.6638 59.7672 22.8219 60.4001 22.8219C60.691 22.8219 60.9069 22.7245 61.0656 22.537L61.0698 22.532C61.2517 22.3349 61.3421 22.1029 61.3421 21.8279C61.3421 21.4319 61.2596 21.1255 61.1073 20.8971L61.1033 20.8911C60.9614 20.6546 60.7644 20.4645 60.5086 20.3206L60.4987 20.315C60.254 20.1519 59.957 20.0187 59.6049 19.9181L59.5965 19.9157C59.2505 19.7946 58.896 19.6733 58.5327 19.5522C58.1639 19.4293 57.8039 19.2888 57.4525 19.1307C57.0928 18.9688 56.7682 18.7615 56.4793 18.5088C56.1852 18.2514 55.948 17.9311 55.7667 17.5504L55.763 17.5428C55.5978 17.1388 55.5181 16.659 55.5181 16.1079C55.5181 15.4757 55.6719 14.8868 55.9796 14.3439L55.9814 14.3407C56.3069 13.7982 56.7506 13.3726 57.3101 13.0654L58.3804 12.4389C58.7487 12.246 59.1342 12.0708 59.5369 11.9132ZM88.8126 12.5459C89.858 11.9435 90.9845 11.6419 92.1895 11.6419C93.0572 11.6419 93.8821 11.8013 94.663 12.1205C95.443 12.4221 96.135 12.8569 96.738 13.4246C97.343 13.9937 97.822 14.6777 98.177 15.475C98.533 16.2763 98.71 17.164 98.71 18.1359C98.71 19.4076 98.418 20.5274 97.83 21.4901L97.829 21.4912C97.245 22.4295 96.491 23.1747 95.5683 23.7247L95.564 23.7273L94.0579 24.5581L94.057 24.5587C93.5604 24.8423 93.0286 25.055 92.4621 25.1969C91.8945 25.3563 91.3095 25.4359 90.7075 25.4359C89.8404 25.4359 89.0078 25.2854 88.2105 24.9842L88.2067 24.9828C87.4283 24.6643 86.7372 24.2303 86.1345 23.6807L86.131 23.6776C85.5449 23.1092 85.075 22.4348 84.721 21.6559L84.7204 21.6548C84.3643 20.8535 84.1875 19.9657 84.1875 18.9939C84.1875 17.7399 84.4704 16.6295 85.0405 15.6674L85.0415 15.6657C85.6263 14.7088 86.3981 13.9543 87.3559 13.4043L87.3568 13.4038L88.8114 12.5466L88.8126 12.5459ZM89.9755 14.3843C89.7752 14.4152 89.59 14.4921 89.4184 14.6167C88.9039 14.9986 88.5131 15.4965 88.2459 16.1138C87.9941 16.7355 87.8675 17.409 87.8675 18.1359C87.8675 18.7768 87.977 19.3823 88.1953 19.9535C88.4145 20.5096 88.7085 20.9965 89.077 21.4155C89.4618 21.8335 89.9133 22.1681 90.4323 22.4196C90.9657 22.6525 91.5508 22.7699 92.1895 22.7699C92.4235 22.7699 92.6484 22.7533 92.8644 22.7203C93.0881 22.6721 93.2953 22.6089 93.4864 22.5311C93.9639 22.0982 94.3351 21.584 94.6004 20.987L94.6012 20.9853C94.8866 20.3642 95.0295 19.701 95.0295 18.9939C95.0295 18.3527 94.9199 17.7469 94.7014 17.1754C94.4824 16.6026 94.18 16.1078 93.7951 15.6894C93.4109 15.2718 92.9515 14.9459 92.4154 14.7113L92.4101 14.709C91.8947 14.4596 91.3279 14.3339 90.7075 14.3339C90.4545 14.3339 90.2105 14.3507 89.9755 14.3843Z"/>
+</symbol>
+<symbol id="burger" viewBox="0 0 24 14"><path d="M0 0.00999832H24V2H0V0V0.00999832ZM0 6.01H24V8H0V6V6.01ZM0 12.01H24V14H0V12.02V12.01Z" /></symbol>
+<symbol id="star-one" viewBox="0 0 24 23">
+<path fill="#e2a56e" d="M0.640055 8.24076C3.6693 7.90292 8.21024 7.39763 8.21024 7.39763C8.21024 7.39763 10.0912 3.21373 11.3472 0.424454C11.4592 0.176134 11.7079 0 11.9982 0C12.2884 0 12.5356 0.174691 12.6534 0.424454C13.9078 3.21373 15.7903 7.39763 15.7903 7.39763C15.7903 7.39763 15.8644 7.40587 16 7.42096V21.4091C13.9322 20.2247 11.9982 19.1164 11.9982 19.1164C11.9982 19.1164 8.0292 21.3917 5.3793 22.9046C5.1423 23.0389 4.8405 23.036 4.6062 22.8641C4.37055 22.6924 4.2729 22.4051 4.32465 22.1337C4.93965 19.1351 5.86785 14.6408 5.86785 14.6408C5.86785 14.6408 2.4867 11.5512 0.236254 9.48813C0.0351041 9.30479 -0.0553457 9.01459 0.0351041 8.73595C0.125704 8.45731 0.367056 8.27396 0.640055 8.24076Z"/>
+<path d="M16 21.409C16.8949 21.9217 17.815 22.4485 18.6141 22.9059C18.8554 23.0389 19.1572 23.036 19.3915 22.8641C19.6272 22.6923 19.7248 22.405 19.6717 22.1351C19.0567 19.135 18.1327 14.6407 18.1327 14.6407C18.1327 14.6407 21.5139 11.5512 23.7643 9.49241C23.9655 9.30329 24.0546 9.01309 23.9655 8.73589C23.8764 8.45869 23.6349 8.27535 23.3619 8.24358C20.7196 7.94639 16.9259 7.52395 16 7.4209V21.409Z"/>
+</symbol>
+<symbol id="star-two" viewBox="0 0 24 23">
+<path fill="#e2a56e" d="M8 7.42102C7.07324 7.52416 3.2818 7.94613 0.640055 8.24076C0.367056 8.27395 0.125704 8.45731 0.0351041 8.73595C-0.0553457 9.01458 0.0351041 9.30478 0.236254 9.48812C2.4867 11.5512 5.86785 14.6408 5.86785 14.6408C5.86785 14.6408 4.93965 19.1351 4.32465 22.1337C4.2729 22.4051 4.37055 22.6924 4.6062 22.8641C4.8405 23.036 5.1423 23.0389 5.3793 22.9046C6.18095 22.4469 7.10332 21.9195 8 21.4063V7.42102Z"/>
+<path d="M8 21.4063C10.0674 20.2233 11.9982 19.1164 11.9982 19.1164C11.9982 19.1164 15.9685 21.3917 18.6141 22.906C18.8554 23.0389 19.1572 23.036 19.3915 22.8641C19.6272 22.6924 19.7248 22.4051 19.6717 22.1352C19.0567 19.1351 18.1327 14.6408 18.1327 14.6408C18.1327 14.6408 21.5139 11.5512 23.7643 9.49247C23.9655 9.30334 24.0546 9.01315 23.9655 8.73595C23.8764 8.45875 23.6349 8.27541 23.3619 8.24364C20.3328 7.90294 15.7903 7.39763 15.7903 7.39763C15.7903 7.39763 13.9078 3.21373 12.6534 0.424454C12.5356 0.174691 12.2884 0 11.9982 0C11.7079 0 11.4592 0.176134 11.3472 0.424454C10.0912 3.21373 8.21024 7.39763 8.21024 7.39763C8.21024 7.39763 8.13594 7.4059 8 7.42102V21.4063Z"/>
+</symbol>
+<symbol id="star" viewBox="0 0 24 23">
+<path d="M8.21024 7.39763C8.21024 7.39763 3.6693 7.90292 0.640055 8.24076C0.367056 8.27396 0.125704 8.45731 0.0351041 8.73595C-0.0553457 9.01459 0.0351041 9.30479 0.236254 9.48813C2.4867 11.5512 5.86785 14.6408 5.86785 14.6408C5.86785 14.6408 4.93965 19.1351 4.32465 22.1337C4.2729 22.4051 4.37055 22.6924 4.6062 22.8641C4.8405 23.036 5.1423 23.0389 5.3793 22.9046C8.0292 21.3917 11.9982 19.1164 11.9982 19.1164C11.9982 19.1164 15.9685 21.3917 18.6141 22.906C18.8554 23.0389 19.1572 23.036 19.3915 22.8641C19.6272 22.6924 19.7248 22.4051 19.6717 22.1352C19.0567 19.1351 18.1327 14.6408 18.1327 14.6408C18.1327 14.6408 21.5139 11.5512 23.7643 9.49247C23.9655 9.30335 24.0546 9.01315 23.9655 8.73595C23.8764 8.45875 23.6349 8.27541 23.3619 8.24364C20.3328 7.90294 15.7903 7.39763 15.7903 7.39763C15.7903 7.39763 13.9078 3.21373 12.6534 0.424454C12.5356 0.174691 12.2884 0 11.9982 0C11.7079 0 11.4592 0.176134 11.3472 0.424454C10.0912 3.21373 8.21024 7.39763 8.21024 7.39763Z"/>
+</symbol>
+<symbol id="logo-one" viewBox="0 0 32 31">
+<path d="M22.5511 28.7526L22.5778 28.7437C22.6468 28.7098 22.7017 28.6527 22.7329 28.5826C22.7641 28.5124 22.7696 28.4336 22.7484 28.3598C22.7273 28.286 22.6808 28.222 22.6171 28.1789C22.5535 28.1357 22.4766 28.1162 22.4 28.1237C22.3727 28.1264 22.3459 28.1324 22.32 28.1414C15.9556 30.7987 7.92889 28.0883 5.34222 21.2944C4.77904 19.824 4.5127 18.2572 4.55846 16.684C4.60422 15.1108 4.96119 13.5621 5.60889 12.1267C5.78409 11.7386 5.97993 11.3601 6.19556 10.9929V11.0106C6.32 10.798 6.45037 10.5913 6.58667 10.3905C7.46295 9.07761 8.59098 7.95019 9.90593 7.07309C11.2209 6.19599 12.6968 5.58649 14.2489 5.27963C15.8011 4.96972 17.3995 4.96824 18.9523 5.27528C20.5052 5.58233 21.9819 6.19185 23.2978 7.06889C24.6431 7.95059 25.7876 9.10394 26.6574 10.4543C27.5271 11.8047 28.1026 13.322 28.3467 14.908C28.5465 15.9679 28.5339 17.0567 28.3097 18.1117C28.0854 19.1667 27.6539 20.1671 27.04 21.0552C25.5644 22.9065 23.0844 23.5885 22.4089 20.5415L22.0267 18.8231L22.0533 18.8054V18.7877L22.1422 18.6991L25.9378 14.9346L26.4267 14.4562C26.5319 14.3362 26.5888 14.1816 26.5867 14.0222C26.587 13.8704 26.5338 13.7234 26.4363 13.6068C26.3388 13.4902 26.2032 13.4115 26.0533 13.3844L25.4044 13.287L19.9822 12.4278L17.4756 7.54721L17.1733 6.9626C17.1174 6.86099 17.0351 6.77624 16.935 6.7172C16.8349 6.65816 16.7207 6.62702 16.6044 6.62702C16.4881 6.62702 16.374 6.65816 16.2739 6.7172C16.1738 6.77624 16.0915 6.86099 16.0356 6.9626L15.7333 7.54721L13.2356 12.4278L7.80444 13.287L7.15556 13.3844C7.04052 13.4052 6.93325 13.4566 6.8451 13.5331C6.75694 13.6097 6.69118 13.7085 6.65475 13.8192C6.61833 13.9299 6.6126 14.0484 6.63816 14.1621C6.66373 14.2758 6.71965 14.3805 6.8 14.4651L7.27111 14.9346L11.1644 18.8054L10.2933 24.2086L10.1956 24.8552C10.1934 24.8847 10.1934 24.9143 10.1956 24.9438C10.1956 25.1153 10.2639 25.2797 10.3856 25.401C10.5073 25.5223 10.6723 25.5904 10.8444 25.5904C10.9361 25.5916 11.027 25.5735 11.1111 25.5372L11.7067 25.2361L16.9689 22.5699L18.5333 23.3671C18.5788 23.3863 18.6292 23.3904 18.6772 23.3789C18.7253 23.3675 18.7683 23.341 18.8001 23.3033C18.8319 23.2657 18.8508 23.2189 18.854 23.1698C18.8571 23.1207 18.8445 23.0719 18.8178 23.0305L17.1556 20.7452L16.9067 20.4086C16.8156 20.2848 16.6965 20.1841 16.559 20.1149C16.4216 20.0456 16.2696 20.0097 16.1156 20.01C15.9714 20.0082 15.8287 20.0385 15.6978 20.0986L13.5111 21.2147L13.9911 18.2031V18.1765C13.993 18.147 13.993 18.1174 13.9911 18.0879C13.9936 17.8965 13.9201 17.7119 13.7867 17.5742L11.6178 15.4129L14.64 14.9346C14.755 14.9174 14.8643 14.8731 14.9586 14.8053C15.0529 14.7375 15.1296 14.6482 15.1822 14.5448L16.5689 11.8343L17.9556 14.5448C18.0079 14.6466 18.0834 14.7349 18.1759 14.8026C18.2685 14.8702 18.3757 14.9154 18.4889 14.9346L21.5289 15.4129L19.36 17.5653V17.5742C19.2247 17.7077 19.148 17.8893 19.1467 18.079C19.1462 18.1206 19.1491 18.162 19.1556 18.2031L20.7556 21.755C21.1243 22.7116 21.8004 23.5196 22.6783 24.0532C23.5562 24.5867 24.5866 24.8158 25.6089 24.7046C29.2711 24.3503 31.9022 20.2758 31.9733 15.7849V15.342H32C31.8702 11.2097 30.1239 7.29184 27.1343 4.42525C24.1447 1.55867 20.1487 -0.0293453 16 0.000426638C11.7978 -0.0302978 7.75467 1.59955 4.75584 4.53307C1.75702 7.46659 0.0469186 11.4647 0 15.652C0.0116013 18.3185 0.708953 20.9374 2.02547 23.2588C3.34198 25.5802 5.2337 27.5266 7.52 28.912V28.9032C9.78098 30.299 12.3934 31.0259 15.053 30.9993C17.7126 30.9726 20.3099 30.1935 22.5422 28.7526H22.5511Z"/>
+</symbol>
+<symbol id="logo-two" viewBox="0 0 77 21">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M7.60881 0.990665C7.63641 0.947785 7.68391 0.921875 7.73491 0.921875H11.5309C11.5903 0.921875 11.6441 0.956895 11.6681 1.0112L20.0401 19.9392C20.0606 19.9856 20.0563 20.0392 20.0286 20.0817C20.001 20.1242 19.9537 20.1499 19.9029 20.1499H16.1069C16.0476 20.1499 15.9938 20.1149 15.9698 20.0606L13.6953 14.9239H5.98641L4.36121 18.5743L4.88511 19.9464C4.90271 19.9925 4.89651 20.0443 4.86851 20.0849C4.84051 20.1256 4.79431 20.1499 4.74491 20.1499H0.610909C0.560209 20.1499 0.512808 20.1242 0.485208 20.0816C0.457508 20.0391 0.453208 19.9854 0.473908 19.939L8.22051 2.50258L7.59841 1.13395C7.57731 1.08752 7.58121 1.03355 7.60881 0.990665ZM63.72 1.01848C63.742 0.960305 63.798 0.921875 63.861 0.921875H76.419C76.501 0.921875 76.569 0.989025 76.569 1.07187V2.52787C76.569 2.54742 76.565 2.56678 76.557 2.58486L69.381 20.0569C69.358 20.1131 69.303 20.1499 69.243 20.1499H65.758C65.708 20.1499 65.661 20.1243 65.633 20.0818C65.605 20.0393 65.601 19.9857 65.621 19.9393L72.729 3.82485L62.822 3.95186C62.773 3.9525 62.726 3.9285 62.698 3.88778C62.669 3.84706 62.663 3.7949 62.68 3.74848L63.72 1.01848ZM36.0606 2.50721C36.1022 2.53505 36.1272 2.58181 36.1272 2.63188V6.9539H39.2532C39.336 6.9539 39.4032 7.021 39.4032 7.1039V9.4959C39.4032 9.5787 39.336 9.6459 39.2532 9.6459H36.1272V15.3719C36.1272 16.0085 36.3457 16.5418 36.7842 16.9808C37.2128 17.3928 37.895 17.6139 38.8632 17.6139H39.3312C39.3805 17.6139 39.4266 17.6381 39.4546 17.6786C39.4826 17.7191 39.4889 17.7708 39.4715 17.8169L38.5875 20.1569C38.5655 20.2153 38.5096 20.2539 38.4472 20.2539H37.4852C35.7053 20.2539 34.4149 19.8977 33.6611 19.1439C32.9137 18.3965 32.5512 17.3215 32.5512 15.9439V9.6459H30.0232C29.9741 9.6459 29.9282 9.6219 29.9001 9.5816C29.8721 9.5413 29.8655 9.4899 29.8825 9.4439L30.7665 7.0519C30.7883 6.993 30.8444 6.9539 30.9072 6.9539H32.5512V3.98386C32.5512 3.92312 32.5878 3.86838 32.644 3.84521L35.92 2.49322C35.9663 2.47412 36.019 2.47937 36.0606 2.50721ZM9.81621 6.1243L7.21001 12.1019H12.4702L9.81621 6.1243ZM44.7321 6.6723C44.7695 6.7007 44.7915 6.74489 44.7915 6.79189V8.1321C44.926 8.0253 45.0727 7.91889 45.2315 7.81289C45.4917 7.62209 45.7267 7.45679 45.9363 7.31709L45.9481 7.3092L46.2838 7.1292C46.5903 6.9492 46.9075 6.8222 47.2349 6.7494L47.2366 6.74909C47.5769 6.67749 47.9339 6.6419 48.3075 6.6419C48.8653 6.6419 49.3379 6.7589 49.7152 7.0041C49.7699 7.0397 49.7954 7.1065 49.7782 7.1695L49.0242 9.9255C49.0135 9.9644 48.9876 9.9975 48.9522 10.0171C48.9169 10.0367 48.8751 10.0412 48.8364 10.0295L47.789 9.71529C47.5564 9.63229 47.3154 9.5739 47.0657 9.5406L47.056 9.5393C46.8048 9.489 46.5634 9.46389 46.3315 9.46389C46.0838 9.46389 45.8151 9.52469 45.5239 9.65209C45.3973 9.74819 45.2696 9.8602 45.1411 9.9884C45.0372 10.1077 44.9466 10.2414 44.8695 10.3899V19.9999C44.8695 20.0827 44.8023 20.1499 44.7195 20.1499H41.4175C41.3346 20.1499 41.2675 20.0827 41.2675 19.9999V9.2755L40.5331 7.984C40.5103 7.9439 40.5072 7.89549 40.5247 7.85289C40.5423 7.81019 40.5785 7.778 40.6229 7.7655L44.6009 6.6475C44.6461 6.6348 44.6946 6.644 44.7321 6.6723ZM24.5369 6.9132C24.9544 6.7321 25.3986 6.6419 25.8681 6.6419C26.5253 6.6419 27.1569 6.74839 27.7621 6.96179C28.3644 7.15679 28.923 7.4317 29.4373 7.7864C29.4944 7.8258 29.5171 7.8993 29.4919 7.9641L28.5039 10.5121C28.487 10.5559 28.4505 10.5892 28.4054 10.6021C28.3602 10.615 28.3116 10.606 28.2741 10.5779C27.8687 10.2738 27.3672 9.9843 26.7677 9.7103L26.7645 9.7088C26.1747 9.4223 25.6077 9.2819 25.0621 9.2819C24.8968 9.2819 24.7198 9.3189 24.5298 9.397C24.4077 9.4668 24.2995 9.57959 24.2084 9.74489C24.1318 9.91499 24.0946 10.0818 24.0941 10.2462C24.1108 10.5688 24.1908 10.8236 24.3253 11.0194C24.4871 11.229 24.6808 11.4066 24.9073 11.5525C25.1566 11.7018 25.4319 11.827 25.7335 11.9276C26.044 12.031 26.3718 12.1346 26.7172 12.2382C27.1214 12.3612 27.509 12.5108 27.8788 12.6866C28.2732 12.8485 28.6166 13.065 28.907 13.3369C29.2178 13.6115 29.4635 13.9492 29.6446 14.3478C29.8292 14.7539 29.9181 15.2444 29.9181 15.8139C29.9181 16.6728 29.6939 17.3929 29.2349 17.962L29.2333 17.9639C28.7877 18.4987 28.2529 18.9353 27.6301 19.2735L26.5386 19.8712C25.857 20.2478 25.1124 20.4359 24.3081 20.4359C22.9082 20.4359 21.6304 20.0366 20.4787 19.2392C20.4217 19.1997 20.3992 19.1263 20.4243 19.0616L21.4643 16.3836C21.4809 16.3406 21.5164 16.3077 21.5605 16.2943C21.6046 16.281 21.6524 16.2886 21.6901 16.315C22.2026 16.6737 22.7936 17.0165 23.4638 17.343C24.1222 17.6638 24.7672 17.8219 25.4001 17.8219C25.691 17.8219 25.9069 17.7245 26.0656 17.537L26.0698 17.532C26.2517 17.3349 26.3421 17.1029 26.3421 16.8279C26.3421 16.4319 26.2596 16.1255 26.1073 15.8971L26.1033 15.8911C25.9614 15.6546 25.7644 15.4645 25.5086 15.3206L25.4987 15.315C25.254 15.1519 24.957 15.0187 24.6049 14.9181L24.5965 14.9157C24.2505 14.7946 23.896 14.6733 23.5327 14.5522C23.1639 14.4293 22.8039 14.2888 22.4525 14.1307C22.0928 13.9688 21.7682 13.7615 21.4793 13.5088C21.1852 13.2514 20.948 12.9311 20.7667 12.5504L20.763 12.5428C20.5978 12.1388 20.5181 11.659 20.5181 11.1079C20.5181 10.4757 20.6719 9.88679 20.9796 9.34389L20.9814 9.3407C21.3069 8.7982 21.7506 8.3726 22.3101 8.0654L23.3804 7.4389C23.7487 7.246 24.1342 7.0708 24.5369 6.9132ZM53.8126 7.5459C54.858 6.9435 55.9845 6.6419 57.1895 6.6419C58.0572 6.6419 58.8821 6.80129 59.663 7.12049C60.443 7.42209 61.135 7.85689 61.738 8.42459C62.343 8.99369 62.822 9.6777 63.177 10.475C63.533 11.2763 63.71 12.164 63.71 13.1359C63.71 14.4076 63.418 15.5274 62.83 16.4901L62.829 16.4912C62.245 17.4295 61.491 18.1747 60.5683 18.7247L60.564 18.7273L59.0579 19.5581L59.057 19.5587C58.5604 19.8423 58.0286 20.055 57.4621 20.1969C56.8945 20.3563 56.3095 20.4359 55.7075 20.4359C54.8404 20.4359 54.0078 20.2854 53.2105 19.9842L53.2067 19.9828C52.4283 19.6643 51.7372 19.2303 51.1345 18.6807L51.131 18.6776C50.5449 18.1092 50.075 17.4348 49.721 16.6559L49.7204 16.6548C49.3643 15.8535 49.1875 14.9657 49.1875 13.9939C49.1875 12.7399 49.4704 11.6295 50.0405 10.6674L50.0415 10.6657C50.6263 9.7088 51.3981 8.95429 52.3559 8.40429L52.3568 8.4038L53.8114 7.5466L53.8126 7.5459ZM54.9755 9.3843C54.7752 9.4152 54.59 9.4921 54.4184 9.6167C53.9039 9.9986 53.5131 10.4965 53.2459 11.1138C52.9941 11.7355 52.8675 12.409 52.8675 13.1359C52.8675 13.7768 52.977 14.3823 53.1953 14.9535C53.4145 15.5096 53.7085 15.9965 54.077 16.4155C54.4618 16.8335 54.9133 17.1681 55.4323 17.4196C55.9657 17.6525 56.5508 17.7699 57.1895 17.7699C57.4235 17.7699 57.6484 17.7533 57.8644 17.7203C58.0881 17.6721 58.2953 17.6089 58.4864 17.5311C58.9639 17.0982 59.3351 16.584 59.6004 15.987L59.6012 15.9853C59.8866 15.3642 60.0295 14.701 60.0295 13.9939C60.0295 13.3527 59.9199 12.7469 59.7014 12.1754C59.4824 11.6026 59.18 11.1078 58.7951 10.6894C58.4109 10.2718 57.9515 9.9459 57.4154 9.7113L57.4101 9.70899C56.8947 9.45959 56.3279 9.3339 55.7075 9.3339C55.4545 9.3339 55.2105 9.3507 54.9755 9.3843Z"/>
+</symbol>
+<symbol id="arr-r" viewBox="0 0 13 13">
+<path d="M11.3536 6.85355C11.5488 6.65829 11.5488 6.34171 11.3536 6.14645L8.17157 2.96447C7.97631 2.7692 7.65973 2.7692 7.46447 2.96447C7.2692 3.15973 7.2692 3.47631 7.46447 3.67157L10.2929 6.5L7.46447 9.32843C7.2692 9.52369 7.2692 9.84027 7.46447 10.0355C7.65973 10.2308 7.97631 10.2308 8.17157 10.0355L11.3536 6.85355ZM1 7H11V6H1V7Z"/>
+</symbol>
+<symbol id="ico-magnify-s" viewBox="0 0 28 28">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M17.7538 19.1824C16.3078 20.3208 14.4832 21 12.5 21C7.80558 21 4 17.1944 4 12.5C4 7.80558 7.80558 4 12.5 4C17.1944 4 21 7.80558 21 12.5C21 14.4832 20.3208 16.3078 19.1824 17.7538L24 22.5714L22.5714 24L17.7538 19.1824ZM19 12.5C19 16.0899 16.0899 19 12.5 19C8.91015 19 6 16.0899 6 12.5C6 8.91015 8.91015 6 12.5 6C16.0899 6 19 8.91015 19 12.5Z"/>
+</symbol>
+</svg>
+
+<script src="https://astro7.ru/fileadmin/templates/js/jquery-1.12.0.js"></script>
+<script src="https://astro7.ru/fileadmin/templates/js/js.cookie.js"></script>
+<script src="https://astro7.ru/fileadmin/templates/js/sod.jquery.min.js"></script>
+<script src="https://astro7.ru/fileadmin/templates/js/menu.js"></script>
+<script src="https://astro7.ru/fileadmin/templates/js/script.js"></script>
+<script src="js/a_script.js"></script>
+
+</body>
+</html>

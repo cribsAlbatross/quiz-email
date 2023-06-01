@@ -1,0 +1,8 @@
+{
+  "meta": {
+    "title": "<title>Заголовок</title>"
+  },
+  "script": {
+    "sod": "<script src='/fileadmin/templates/js/sod.jquery.min.js'></script>"
+  }
+}
